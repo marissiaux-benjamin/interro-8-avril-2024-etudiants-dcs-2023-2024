@@ -21,7 +21,7 @@ Nous nous concentrerons sur les trois premières qui impliquent déjà pas mal d
 - créer le modèle User, qui s’inspire très très fort du modèle Jiri ;
 - créer les validations nécessaires ;
 - créer les middlewares guest et authenticated afin de protéger les routes en fonction ;
-- créer les vues correspondates ;
+- créer les vues correspondantes ;
 
 ## Techniquement…
 

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Jiri;
+use App\Models\Jiris;
 use Core\Exceptions\FileNotFoundException;
 use Core\Response;
 use Core\Validator;
@@ -10,12 +10,12 @@ use JetBrains\PhpStorm\NoReturn;
 
 class JiriController
 {
-    private Jiri $jiri;
+    private Jiris $jiri;
 
     public function __construct()
     {
         try {
-            $this->jiri = new Jiri(base_path('.env.local.ini'));
+            $this->jiri = new Jiris(base_path('.env.local.ini'));
         } catch (FileNotFoundException $exception) {
             die($exception->getMessage());
         }

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models;
+namespace App\models;
 
 use Core\Database;
 
-class Jiri extends Database
+class Jiris extends Database
 {
     protected string $table = 'jiris';
 

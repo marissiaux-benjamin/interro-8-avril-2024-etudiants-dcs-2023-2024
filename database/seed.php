@@ -1,6 +1,7 @@
 <?php
 
 // Seed tables
+global $db;
 echo 'Seeding Jiri table'.PHP_EOL;
 $jiris = [
     ['name' => 'Projets Web 2024', 'starting_at' => '2024-01-19 08:30:00'],
